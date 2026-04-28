@@ -48,10 +48,12 @@ export const Navbar = () => {
 
         <a
           href="https://wa.me/6282142592378"
-          className="hidden md:flex items-center gap-2 text-primary hover:text-primary-hover transition-colors text-sm font-semibold"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hidden md:inline-flex items-center gap-2 rounded-full bg-accent px-5 py-2.5 text-sm font-semibold text-accent-foreground shadow-soft hover:bg-accent/90 transition-colors"
         >
           <Phone className="h-4 w-4" />
-          +62 821 4259 2378
+          Pesan Sekarang
         </a>
 
         <button
@@ -78,9 +80,11 @@ export const Navbar = () => {
             ))}
             <a
               href="https://wa.me/6282142592378"
-              className="flex items-center gap-2 text-primary font-semibold pt-2"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 rounded-full bg-accent px-5 py-2.5 text-sm font-semibold text-accent-foreground shadow-soft mt-2"
             >
-              <Phone className="h-4 w-4" /> +62 821 4259 2378
+              <Phone className="h-4 w-4" /> Pesan Sekarang
             </a>
           </nav>
         </div>
