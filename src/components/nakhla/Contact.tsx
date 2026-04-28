@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { MessageCircle, Instagram, Send } from "lucide-react";
+import { MessageCircle, Instagram, Send, Youtube } from "lucide-react";
 import { toast } from "@/hooks/use-toast";
 
 export const Contact = () => {
@@ -14,7 +14,7 @@ export const Contact = () => {
     const text = encodeURIComponent(
       `Halo Nakhla, saya ${form.nama} (${form.hp}). ${form.pesan}`
     );
-    window.open(`https://wa.me/6281234567890?text=${text}`, "_blank");
+    window.open(`https://wa.me/6282142592378?text=${text}`, "_blank");
   };
 
   return (
@@ -35,18 +35,29 @@ export const Contact = () => {
 
             <div className="space-y-4">
               <a
-                href="https://wa.me/6281234567890"
+                href="https://wa.me/6282142592378"
                 className="flex items-center gap-3 rounded-pill bg-[hsl(140_55%_38%)] text-white px-7 py-4 font-semibold shadow-warm hover:bg-[hsl(140_55%_32%)] transition-colors w-fit"
               >
                 <MessageCircle className="h-5 w-5" />
                 Chat via WhatsApp
               </a>
               <a
-                href="https://instagram.com/nakhla.id"
+                href="https://www.instagram.com/nakhlaofficial/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-3 rounded-pill border-2 border-primary text-accent px-7 py-3.5 font-semibold hover:bg-primary hover:text-primary-foreground transition-colors w-fit"
               >
                 <Instagram className="h-5 w-5" />
-                @nakhla.id
+                @nakhlaofficial
+              </a>
+              <a
+                href="https://youtu.be/VkKR2kSBIXM?si=TVXG8TZZAK4QvR1k"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 rounded-pill border-2 border-primary text-accent px-7 py-3.5 font-semibold hover:bg-primary hover:text-primary-foreground transition-colors w-fit"
+              >
+                <Youtube className="h-5 w-5" />
+                Tonton di YouTube
               </a>
             </div>
           </div>

@@ -47,11 +47,11 @@ export const Navbar = () => {
         </nav>
 
         <a
-          href="https://wa.me/6281234567890"
+          href="https://wa.me/6282142592378"
           className="hidden md:flex items-center gap-2 text-primary hover:text-primary-hover transition-colors text-sm font-semibold"
         >
           <Phone className="h-4 w-4" />
-          +62 812 3456 7890
+          +62 821 4259 2378
         </a>
 
         <button
@@ -77,10 +77,10 @@ export const Navbar = () => {
               </a>
             ))}
             <a
-              href="https://wa.me/6281234567890"
+              href="https://wa.me/6282142592378"
               className="flex items-center gap-2 text-primary font-semibold pt-2"
             >
-              <Phone className="h-4 w-4" /> +62 812 3456 7890
+              <Phone className="h-4 w-4" /> +62 821 4259 2378
             </a>
           </nav>
         </div>
