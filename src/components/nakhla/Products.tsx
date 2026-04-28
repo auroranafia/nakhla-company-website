@@ -133,7 +133,7 @@ export const Products = () => {
                     {v.price}
                   </span>
                   <a
-                    href="https://wa.me/6281234567890"
+                    href="https://wa.me/6282142592378"
                     className="rounded-pill bg-primary text-primary-foreground px-5 py-2.5 text-sm font-semibold shadow-warm hover:bg-primary-hover transition-colors"
                   >
                     Pesan Sekarang
