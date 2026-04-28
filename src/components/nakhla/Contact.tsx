@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { MessageCircle, Instagram, Send } from "lucide-react";
+import { MessageCircle, Instagram, Send, Youtube } from "lucide-react";
 import { toast } from "@/hooks/use-toast";
 
 export const Contact = () => {
@@ -43,10 +43,21 @@ export const Contact = () => {
               </a>
               <a
                 href="https://www.instagram.com/nakhlaofficial/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-3 rounded-pill border-2 border-primary text-accent px-7 py-3.5 font-semibold hover:bg-primary hover:text-primary-foreground transition-colors w-fit"
               >
                 <Instagram className="h-5 w-5" />
                 @nakhlaofficial
+              </a>
+              <a
+                href="https://youtu.be/VkKR2kSBIXM?si=TVXG8TZZAK4QvR1k"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 rounded-pill border-2 border-primary text-accent px-7 py-3.5 font-semibold hover:bg-primary hover:text-primary-foreground transition-colors w-fit"
+              >
+                <Youtube className="h-5 w-5" />
+                Tonton di YouTube
               </a>
             </div>
           </div>
