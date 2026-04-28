@@ -3,6 +3,7 @@ import { Hero } from "@/components/nakhla/Hero";
 import { WhyUs } from "@/components/nakhla/WhyUs";
 import { Products } from "@/components/nakhla/Products";
 import { Story } from "@/components/nakhla/Story";
+import { VideoSection } from "@/components/nakhla/VideoSection";
 import { Benefits } from "@/components/nakhla/Benefits";
 import { Contact } from "@/components/nakhla/Contact";
 import { Footer } from "@/components/nakhla/Footer";
@@ -16,6 +17,7 @@ const Index = () => {
         <WhyUs />
         <Products />
         <Story />
+        <VideoSection />
         <Benefits />
         <Contact />
       </main>
